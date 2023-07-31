@@ -1,0 +1,71 @@
+/* 
+PRIMARY: #D25099
+SECONDARY: #E16AAD
+ACCENT1: #F4A2D0
+ACCENT2: #F9DD9A
+ACCENT3: #87CED0
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet');
+
+:root {
+    --primary: #D25099;
+    --secondary: #E16AAD;
+    --accent1: #F4A2D0;
+    --accent2: #F9DD9A;
+    --accent3: #87CED0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: var(--primary);
+    text-align:center;
+    letter-spacing:3px;
+}
+
+.container {
+    height:50vh;
+    width:50%;
+    background-color: var(--secondary);
+    margin:0 auto;
+    color:var(--accent3);
+    padding:2%;
+    border:10px solid black;
+    /* position:relative; */
+}
+
+.container div {
+    width:50%;
+    margin:0 auto;
+}
+
+.box1 {
+    background-color: #F9DD9A;
+    position:static;
+    top:5px;
+}
+
+.box2 {
+    background-color: #F4A2D0;
+    position:relative;
+}
+
+.box3 {
+    background-color: #F9DD9A;
+    /* position:fixed; */
+    top:0;
+}
+
+.box4 {
+    background-color: #F4A2D0;
+    position:absolute;
+    top:20px;
+    left:50%;
+}
+
+.box5 {
+    background-color: #F9DD9A;
+    position:sticky;
+    top:5px;
+}
